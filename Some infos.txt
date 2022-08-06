@@ -1,0 +1,30 @@
+-HEAD: Aktif olan branch deki son commit*
+- Alisa uzun git komutlarının referans eden özel komut
+- Yeni bir branch oluşturulduğunda otomatik olarak son değişiklikleri yeni brabch a ekler.  
+- Merge yapılmadan önce merge yapılmak istenilen branch de olunması gerekir.
+- Yapılna değişiklikler o anda aktif olan branch için geçerlidir.
+
+Merge türleri:
+Fast forward: Master dan bir branch oluşturulup yeni açılan branch a commit attıktan sonra masterda branch açıldıktan sonra
+herhangi bir değişiklik olmadan yen branch merge edildiğinde oluşur.
+
+3 way merge (automatic merge): Master branch den bir branch oluşturulduıktan sonra master ve yeni branch de değişiklik yapılıp
+merge edilmek istendiğinde oluşur. 
+
+- Rebase: Bir branch den açılan yeni bir branche branch açıldıktan sonra branch in açıldığı branch dedi değişiklikleri eklemek için kullnaılır:
+git rebase <branch>
+
+- Rebase i iptal etme:
+ git rebase --abort
+
+Tools
+-------------------
+- Merge tool: Conflicleri gösterir
+- P4Merge: 
+- cmder
+- Atom: code editor 
+
+- SSH anahtarı
+
+- Repostory yi remote repo ya eklemek için:
+ git remote add <reop_link>

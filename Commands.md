@@ -52,30 +52,4 @@
 | ```git clone <project link>``` | Clones git project from remote repository. |
 | ```git remote -v``` | Shows related remote repository links with current git project. |
 | ```git remote add <alias> <repo link>``` | Adds alias to specified remote repository link. |
-| ```git push <repo alias>``` or ```<repo link> <remote branch name>``` | Pushs commits to remote repository with specified remote branch. |
-
-| ``` ``` |  |
-| ``` ``` |  |
-| ``` ``` |  |
-| ``` ``` |  |
-| ``` ``` |  |
-| ``` ``` |  |
-| ``` ``` |  |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| ```git push <repo alias>/<repo link> <remote branch name>``` | Pushs commits to remote repository with specified remote branch. |
